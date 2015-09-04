@@ -1,0 +1,196 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 22px;
+    padding: 13px 0;
+    color: #404A4A;
+    background-color: #000;
+	min-width: 302px;
+}
+
+.wrapper {
+    position: relative;
+    position: relative;
+    width: 100%;
+    height: auto!important;
+    height: 100%;
+    min-height: 100%;
+    margin: 0 auto;
+	padding: 14px ;
+}
+header, section {
+    max-width:720px;
+    margin: 0 auto;
+    background-color:#F1F1F1;
+	border: 2px solid #495990;
+	border-top:none;
+	padding: 10px;
+	padding-top: 20px;
+}
+header {
+    border: 2px solid #495990;
+    border-bottom: 0;
+    border-radius: 8px 8px 0 0;
+}
+footer {
+    font-size: 60%;
+    position: relative;
+    max-width: 720px;
+    height: 30px;
+    margin: -30px auto 0;
+    text-align: center;
+    border: 2px solid #495990;
+    border-top: 0;
+    border-radius: 0 0 8px 8px;
+    background-color:#F1F1F1;
+	padding: 10px;
+}
+
+.me {
+    width: 40%;
+    float: left;
+    text-align: center;
+    padding: 10px;
+}
+	
+header h1, h2, header h6, .contact {
+	float: left;
+	width: 60%;	
+	text-align:left	;
+	font-size: 120%;
+	font-weight: bold;
+}
+.contact li {
+    margin: 10px;
+}
+ .contact a{
+	color: #404A4A;
+	font-weight: normal;
+	font-size: 100%;
+	text-decoration: none;	
+ }
+header h6 {
+    font-size: 150%;
+    text-align: left;
+    float: right;
+}
+header ul li:before {
+    content: '';
+    color: #01a3de;
+    background: url(../img/sk.png) center 50px;
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-right: 4px;
+}
+
+header ul li.phone:before {
+    background: url(../img/sk.png) center 100px;
+}
+header ul li.email:before {
+    background: url(../img/sk.png) center 0px;
+}
+.skype a{
+	color: #01a3de; 	
+}
+
+h2 {
+    width: 100%;
+    float: none;
+    margin: 8px;
+    margin-bottom: 20px;
+}
+ 
+section li{
+	list-style-type:disc; 
+	margin: 10px;
+}
+section article {
+    margin: 30px;
+    border-bottom: 1px dotted #444;
+    padding: 10px;
+}
+.summary {
+    font-style: italic;
+    font-weight: bold;
+    margin: 10px;
+    margin-top: 20px;
+}
+
+.place-of-work table th, .place-of-work table td {
+    padding: 4px;
+    background-color: #fff;
+	border: 1px solid #444;
+}
+ .place-of-work table td:nth-child(3){
+	 font-size: 80%;
+	 
+ }
+.hobbies span{
+	font-weight: bold;
+	
+}
+ 
+ @media screen and (max-width:790px) {
+
+footer{
+	margin: 14px;
+	margin-top: -30px;
+} 
+ @media screen and (max-width:600px) {
+body {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.contact a {
+    line-height: 22px;
+}
+ }
+  @media screen and (max-width:500px) {
+body {
+    font-size: 12px;
+    line-height: 16px;
+}
+section article {
+    margin: 10px;
+    border-bottom: 1px dotted #444;
+    padding: 4px;
+}
+ }
+ 
+  @media screen and (max-width:400px) {
+.contact a {
+	font-size: 12px;
+    line-height: 24px;
+}
+ .place-of-work table td{
+	font-size: 8px;
+	padding: 1px;	
+ }
+ header, section {
+    border: 1px solid #495990;
+    border-top: none;
+	border-bottom: none;
+    padding: 4px;
+    padding-top: 20px;
+}
+footer{
+    border: 1px solid #495990;
+	border-top: none;
+	margin-top: -30px;
+} 
+.me {
+    width: 30%;
+    padding: 4px;
+}
+header h1, header h6, .contact {
+    width: 70%;
+
+}
+header img{
+    width: 106%;
+    margin-top: 24px;
+  } 
+ } 
